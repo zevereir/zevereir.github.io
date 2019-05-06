@@ -19,7 +19,7 @@ last_updated: # leave blank if you don't want to display last updated
 # -----------------------------------------------------------------------------
 # KU Leuven integration
 # -----------------------------------------------------------------------------
-ku_leuven_personnel_number: u0XXXXXX
+ku_leuven_personnel_number: 0XXXXXX
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -33,7 +33,7 @@ medium_username: # your Medium username
 quora_username: # your Quora username
 
 contact_note: >
-  You can reach me on {{ site.name }} [at] cs.kuleuven.be
+  You can reach me on firstname.lastname@cs.kuleuven.be
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
