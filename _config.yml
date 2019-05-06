@@ -15,6 +15,11 @@ baseurl: /al-folio # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
+# KU Leuven integration
+# -----------------------------------------------------------------------------
+ku_leuven_personnel_number: u0XXXXXX
+
+# -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 github_username: # your GitHub user name
