@@ -1,3 +1,18 @@
+# Simple instructions
+
+1. When configuring, launch the site by running this command, which will host the website on [http://localhost:4000/](http://localhost:4000/) and update on changes:
+
+```
+bundle exec jekyll serve --watch
+```
+
+2. Go to ```_config.yml``` and update the properties:
+- Your first & last name in ```name```
+- Your personnel number in ```ku_leuven_personnel_number``` to link up your publications
+
+
+
+
 # al-folio
 
 [![build status](https://travis-ci.org/alshedivat/al-folio.svg?branch=master)](https://travis-ci.org/alshedivat/al-folio)
