@@ -6,8 +6,7 @@ layout: default
   <header class="post-header">
 
     <span class="post-title">
-        {% assign name = site.name | split: ' ' %}
-        <strong>{{ name | first }}</strong> {{ name | last }}
+        <strong>{{ site.first_name }}</strong> {{ site.last_name }}
     </span>
     <h5 class="post-description">{{ site.description }}</h5>
   </header>
