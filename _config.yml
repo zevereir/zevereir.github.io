@@ -1,8 +1,9 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Your Name
-email: you@example.com
+first_name: FirstName
+last_name: LastName
+email: yourname@cs.kuleuven.be
 description: > # this means to ignore newlines until "url:"
   KU Leuven PhD researcher at the DTAI research group.
 footer_text: > # Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -12,7 +13,7 @@ footer_text: > # Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyl
 
  
 url:  # the base hostname & protocol for your site
-baseurl: / # the subpath of your site, e.g. /blog/
+baseurl: # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
@@ -32,7 +33,7 @@ medium_username: # your Medium username
 quora_username: # your Quora username
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  You can reach me on {{ site.name }} [at] cs.kuleuven.be
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 

@@ -1,7 +1,6 @@
 ---
 layout: about
 permalink: /
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
