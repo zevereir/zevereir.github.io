@@ -6,13 +6,15 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Departement Computerwetenschappen,</p>
+    <p>Celestijnenlaan 200A,</p>
+    <p>3001 Leuven</p>
 
 news: true
 social: true
 ---
+
+Hi, I'm {{ site.name }}, a PhD student at the <a href="https://dtai.cs.kuleuven.be/" target="_blank">DTAI</a> research group at <a href="https://www.kuleuven.be/kuleuven/" target="_blank">KU Leuven</a>, mainly focused on machine learning.
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
