@@ -25,9 +25,7 @@
         <!-- About -->
         <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">about</a>
 
-        <!-- Blog -->
-        <a class="page-link" href="{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}">blog</a>
-
+        <a class="page-link" href="{{ site.ku_leuven_personnel_number | prepend: 'http://lirias.kuleuven.be/cv?Username=' }}">publications</a>
         <!-- Pages -->
         {% for page in site.pages %}
           {% if page.title and page.url != "/" %}
