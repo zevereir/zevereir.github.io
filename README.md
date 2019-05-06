@@ -1,16 +1,22 @@
 # Simple instructions
 
-1. When configuring, launch the site by running this command, which will host the website on [http://localhost:4000/](http://localhost:4000/) and update on changes:
+1. When configuring, launch the site by running this command, which will host the website on [http://localhost:4000/](http://localhost:4000/):
 
 ```
 bundle exec jekyll serve --watch
 ```
 
 2. Go to ```_config.yml``` and update the properties:
-- Your first & last name in ```name```
-- Your personnel number in ```ku_leuven_personnel_number``` to link up your publications
+- Your first name in ```first_name```
+- Your last name in ```last_name```
+- Your personnel number in ```ku_leuven_personnel_number``` to link up your publications (number AFTER the u)
+
+3. Go to ```_pages/about.md``` and fill in your own biography to display.
+
+4. Update ```assets/img/prof_pic.jpg``` to a picture of yourself (file name updatable in ```_pages/about.md```)
 
 
+4. If you prefer a different theme color, go to ```_sass/_variables.scss``` and change ```$theme-color: $blue;``` to any color defined above this line.
 
 
 # al-folio
