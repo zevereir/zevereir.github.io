@@ -21,6 +21,14 @@ last_updated: # leave blank if you don't want to display last updated
 # -----------------------------------------------------------------------------
 ku_leuven_personnel_number: 0XXXXXX
 
+teaching:
+- period: 2017-2019
+  course: Course 1 Name
+  note: A course about XXX
+- period: 2018-2019
+  course: Course 2 name
+  note: A course about XXX
+
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------

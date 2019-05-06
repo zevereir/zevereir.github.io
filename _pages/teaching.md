@@ -2,9 +2,20 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: List of courses I helped teaching
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+{% for item in site.teaching %}
+  <div>
+    <em>{{ item.period }}</em>:
+    <strong>
+        {{ item.course }}
+    </strong>
 
-Organize your courses by years, topics, or universities, however you like!
+  	{% if item.note %}
+	    <p>
+	    	{{ item.note }}
+	    </p>
+  	{% endif %}
+  </div>
+{% endfor %}
