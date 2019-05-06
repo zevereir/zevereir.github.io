@@ -9,7 +9,7 @@ layout: default
         {% assign name = site.name | split: ' ' %}
         <strong>{{ name | first }}</strong> {{ name | last }}
     </span>
-    <h5 class="post-description">{{ page.description }}</h5>
+    <h5 class="post-description">{{ site.description }}</h5>
   </header>
 
   <article class="post-content {{site.name}} clearfix">
