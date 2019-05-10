@@ -12,7 +12,7 @@ layout: default
     {{ content }}
   </article>
 
-  {% if page.news %}
+  {% if site.show_news and page.news %}
     {% include news.html %}
   {% endif %}
 
