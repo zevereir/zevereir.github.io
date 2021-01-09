@@ -43,7 +43,7 @@ medium_username: # your Medium username
 quora_username: # your Quora username
 
 contact_note: >
-  You can reach me on firstname.lastname@cs.kuleuven.be
+  You can reach me on firstname.lastname@kuleuven.be
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
@@ -74,7 +74,7 @@ highlighter: rouge #pygments
 
 # Includes & excludes
 include: ['_pages']
-exclude: [vendor]
+exclude: [vendor, bin]
 
 # Plug-ins
 plugins:
