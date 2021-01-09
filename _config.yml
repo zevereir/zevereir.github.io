@@ -83,6 +83,26 @@ plugins:
     - jekyll/scholar
     - jemoji
 
+# -----------------------------------------------------------------------------
+# Scholar settings
+# -----------------------------------------------------------------------------
+use_scholar: false # Set this to true if you want to use jekyll-scholar instead of Lirias.
+
+scholar:
+    sort_by: year, month
+    last_name: Lastname # Your last name, this enables underlining your name in your publications
+    order: descending
+    bibliography_template: bib
+    bibtex_skip_fields: 
+     - abstract
+     - month_numeric
+     - code
+     - pdf
+     - supp
+     - slides
+     - poster
+     - arxiv
+     - video
 
 # -----------------------------------------------------------------------------
 # Other settings
