@@ -9,7 +9,7 @@ For more about how to use Jekyll, check out [this tutorial](https://www.taniaras
 
 ### Installation
 
-Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system, first fork the theme to `github.com:<your-username>/<your-repo-name>` and do the following:
+Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) (Ruby+Devkit on Windows) and [Bundler](https://bundler.io/) installed on your system, first fork the theme to `github.com:<your-username>/<your-repo-name>` and do the following:
 
 ```bash
 $ git clone git@github.com:<your-username>/<your-repo-name>.git
