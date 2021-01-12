@@ -74,7 +74,7 @@ Advantages of Jekyll-Scholar:
    
     3. Add a video (e.g. talk recording) setting the ```video``` field to the url of the video.
   
-    4. You can add attachments to your bibtex entries by storing them in ``assets/pdf/``` and linking to them in your bibtex entry. The possible attachments are ```pdf```,```supp```,```slides```,```poster```. Link to them by adding the filenames to the corresponding bibtex field.
+    4. You can add attachments to your bibtex entries by storing them in ``assets/pdf/`` and linking to them in your bibtex entry. The possible attachments are ```pdf```,```supp```,```slides```,```poster```. Link to them by adding the filenames to the corresponding bibtex field.
 
 
 4. Fill out the information about your co-authors in ```_data/coauthors.yml```. This will make the names of your co-authors in your publication list link to their personal websites.
