@@ -1,0 +1,57 @@
+---
+layout: default
+permalink: /lirias/
+description: List of the papers published by {{site.first_name}} {{site.last_name}}
+---
+<style>
+    /* Remove styling from lirias*/
+    table, td, tr {
+        border: none !important;
+        padding: .5em 0 !important;
+    }
+
+    table[cellpadding="0"] {
+        padding: 0 !important;
+    }
+
+    tr[height="0"] {
+        display: none;
+    }
+
+    /* Remove the KU Leuven link to other researchers publications */
+    #oReportCell > div > table > tbody > tr > td > table > tbody > tr:nth-child(2) {
+        display: none;
+    }
+</style>
+<div id="lirias-container">
+</div>
+<script>
+    const getHTML = function (url, callback) {
+
+        // Feature detection
+        if (!window.XMLHttpRequest) return;
+
+        // Create new request
+        var xhr = new XMLHttpRequest();
+
+        // Setup callback
+        xhr.onload = function () {
+            if (callback && typeof (callback) === 'function') {
+                callback(this.responseXML);
+            }
+        }
+
+        // Get the HTML
+        xhr.open('GET', url);
+        xhr.responseType = 'document';
+        xhr.send();
+
+    };
+
+    const container = document.getElementById("lirias-container");
+    getHTML("{{ site.ku_leuven_personnel_number | prepend: 'http://lirias.kuleuven.be/cv?Username=u' }}", function (html) {
+        const content = html.documentElement.getElementsByTagName("body")[0].getElementsByTagName("div")[0];
+        container.innerHTML = content.innerHTML;
+
+    })
+</script>
