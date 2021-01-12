@@ -31,7 +31,6 @@ bundle exec jekyll serve --watch
 - Your first name in ```first_name```
 - Your last name in ```last_name```
 - Your personnel number in ```ku_leuven_personnel_number``` to link up your publications (number AFTER the u)
-- The courses you teach and have taught under ```teaching```
 - Your social media profiles that you would like to link 
 
 
@@ -39,9 +38,11 @@ bundle exec jekyll serve --watch
 
 4. Update ```assets/img/prof_pic.jpg``` to a picture of yourself (file name updatable in ```_pages/about.md```)
 
-5. Create your projects by copying and editing the content of the ```_projects folder```
+5. Add your teaching activities (teaching assistant, thesis students, seminars) to the csv files in ```_data/teaching/```.
 
-6. If you prefer a different theme color, go to ```_sass/_variables.scss``` and change ```$theme-color: $blue;``` to any color defined above this line.
+6. Create your projects by copying and editing the content of the ```_projects folder```
+
+7. If you prefer a different theme color, go to ```_sass/_variables.scss``` and change ```$theme-color: $blue;``` to any color defined above this line.
 
 
 For more advanced info, see [the original al-folio template](https://github.com/alshedivat/al-folio).
