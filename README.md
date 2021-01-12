@@ -32,6 +32,7 @@ bundle exec jekyll serve --watch
 - Your last name in ```last_name```
 - Your personnel number in ```ku_leuven_personnel_number``` to link up your publications (number AFTER the u)
 - Your social media profiles that you would like to link 
+- `show_news` to `false` if you don't want to post news message on your website.
 
 
 3. Go to ```_pages/about.md``` and fill in your own biography to display.
