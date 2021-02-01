@@ -50,36 +50,39 @@ For more advanced info, see [the original al-folio template](https://github.com/
 
 
 
-#### OPTIONAL: Publications with Jekyll-Scholar
-There are two options for your publications: 1) just show the Lirias automatically generated page, or 2) you can get more control over your publication page by using the Jekyll-Scholar plugin. To use Lirias, just fill in your personnel number in the _config.yml file (as described above). To use Jekyll-Scholar, keep reading this section.
+### OPTIONAL: Publications with Jekyll-Scholar
+
+By default, your publications will be retrieved from Lirias.
+If you want more control over your publication page, you can use the Jekyll-Scholar plugin.
 
 Advantages of Jekyll-Scholar:
 - Use bibtex files to import your publications 
-- Get control over which publications you show and how you group and order them
-- Ability to add extra fields to your bibtex entries to include links to paper arxiv page, pdfs, supplementary materials, code, slides, poster, videos, and anything else if you want to.
+- Control which publications you show and how you group and order them
+- Add extra fields to your bibtex entries to include links to paper arxiv page, pdfs, supplementary materials, code, slides, poster, videos, and anything else if you want to.
 - Cite your and other's work anywhere in your website, simply using {% cite <bibtex-key> %}  
+
+#### How to enable Jekyll-Scholar: 
 
 1. Go to ```_config.yml``` and update the properties:
 - Set ```use_scholar``` to ```true```
 - Your last name in ```scholar: last_name```
 
-2. Add your bibtex file to ```_bibliography/references.bib```.  Now you already have a basic publications page. But keep reading to make it less basic :-)
+2. Add your bibtex file to ```_bibliography/references.bib```. Now the basic publications page works!
 
-
-3. Add links to your publications
+3. You can now additionally add the following fields to your publications in BibTeX:
     
-    1. If you add an ```abstract``` to your bibtex entry, a button ```[Abstract]``` will appear that shows your abstract below when you click on it.
+    1. ```abstract```: creates a button ```[Abstract]``` for showing the paper's abstract
 
-    2. Link to arXiv by setting the ```arxiv``` field to the arXiv ID of your paper.
+    2.  ```arxiv```: links to the arXiv ID of your paper.
    
-    3. Add a video (e.g. talk recording) setting the ```video``` field to the url of the video.
+    3. ```video```: url of the video (e.g. talk recording)
   
     4. You can add attachments to your bibtex entries by storing them in ``assets/pdf/`` and linking to them in your bibtex entry. The possible attachments are ```pdf```,```supp```,```slides```,```poster```. Link to them by adding the filenames to the corresponding bibtex field.
 
 
-4. Fill out the information about your co-authors in ```_data/coauthors.yml```. This will make the names of your co-authors in your publication list link to their personal websites.
+4. Fill out information about your co-authors in ```_data/coauthors.yml``` to automatically link their namses to their personal websites.
 
-5. See the [Jekyll-Scholar](https://github.com/inukshuk/jekyll-scholar/) documentation for learning how to sort, group and filter your publications, how to cite papers, and how to use multiple bib files (e.g. to add an extra bib file with other papers that you like to cite).
+5. *More documentation*: [Jekyll-Scholar](https://github.com/inukshuk/jekyll-scholar/) documentation for learning how to sort, group and filter your publications, how to cite papers, and how to use multiple bib files (e.g. to add an extra bib file with other papers that you like to cite).
 
 
 
