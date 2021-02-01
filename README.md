@@ -50,7 +50,7 @@ For more advanced info, see [the original al-folio template](https://github.com/
 
 
 
-#### Publications with Jekyll-Scholar
+#### OPTIONAL: Publications with Jekyll-Scholar
 There are two options for your publications: 1) just show the Lirias automatically generated page, or 2) you can get more control over your publication page by using the Jekyll-Scholar plugin. To use Lirias, just fill in your personnel number in the _config.yml file (as described above). To use Jekyll-Scholar, keep reading this section.
 
 Advantages of Jekyll-Scholar:
