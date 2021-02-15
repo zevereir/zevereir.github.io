@@ -4,7 +4,7 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: sieben.jpg
   address: >
     <p>Departement Computerwetenschappen,</p>
     <p>Celestijnenlaan 200A,</p>
