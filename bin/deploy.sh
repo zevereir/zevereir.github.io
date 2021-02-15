@@ -94,5 +94,5 @@ git push -f -q origin $DEPLOY_BRANCH
 git checkout $SRC_BRANCH
 
 echo "Deployed successfully!"
-
+sleep 5
 exit 0
