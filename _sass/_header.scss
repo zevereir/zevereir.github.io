@@ -1,6 +1,6 @@
 .site-header {
     border-bottom: 1px solid $grey-color-light;
-    background-color: #fff;
+    background-color: #e6ece6;
     opacity: 0.95;
     position:fixed;
     left:0px;
@@ -10,6 +10,7 @@
 }
 
 .site-title {
+    color:#003300;
     font-size: 20px;
     line-height: $nav-height;
     letter-spacing: -1px;
@@ -28,6 +29,7 @@
     }
     
     .page-link{
+        color:#003300;
         line-height: $line-height;
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -78,6 +80,7 @@
         }
 
         .page-link {
+            color:#003300;
             display: block;
             padding: 5px 10px;
 

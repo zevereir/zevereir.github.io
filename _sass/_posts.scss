@@ -18,36 +18,42 @@
     line-height: 1;
     margin-bottom: 10px;
     margin-top: 0;
+    color:$theme-color;
     // @include media-query($on-laptop) {
     //     font-size: 36px;
     // }
 }
 .post-content {
+    
     h2 {
         font-size: 42px;
+        color:white;
         // @include media-query($on-laptop) {
         //     font-size: 28px;
         // }
     }
     h3 {
         font-size: 30px;
+        color:white;
         // @include media-query($on-laptop) {
         //     font-size: 22px;
         // }
     }
     h4 {
         font-size: 20px;
+        color:white;
         // @include media-query($on-laptop) {
         //     font-size: 18px;
         // }
     }
 }
 .post-meta {
-    color: $grey-color;
+    color: white;
     font-size: $small-font-size;
     margin-bottom: 0px;
 }
 .post-link {
     display: block;
     font-size: 42px;
+    color: white;
 }
