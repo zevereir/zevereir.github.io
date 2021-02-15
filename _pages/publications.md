@@ -1,7 +1,6 @@
 ---
 layout: page
-permalink: /publications/
+permalink: /
 title: publications
 ---
 
-#{% bibliography %}
