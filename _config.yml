@@ -1,9 +1,9 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-first_name: FirstName
-last_name: LastName
-email: yourname@cs.kuleuven.be
+first_name: Sieben
+last_name: Bocklandt
+email: sieben.bocklandt@kuleuven.be
 description: > # this means to ignore newlines until "url:"
   KU Leuven PhD researcher at the DTAI research group.
 footer_text: > # Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -11,7 +11,7 @@ footer_text: > # Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyl
   <a href="https://www.kuleuven.be/kuleuven/" target="_blank">KU Leuven</a>.
   
 
-show_news: true
+show_news: false
 show_address: true
  
 url:  # the base hostname & protocol for your site
@@ -21,21 +21,21 @@ last_updated: # leave blank if you don't want to display last updated
 # -----------------------------------------------------------------------------
 # KU Leuven integration
 # -----------------------------------------------------------------------------
-ku_leuven_personnel_number: "0XXXXXX"
+ku_leuven_personnel_number: "0136004"
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: # your GitHub user name
+github_username: Zevereir
 twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
+linkedin_username: Sieben Bocklandt
 scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+orcid_id: https://orcid.org/0000-0003-3833-624X
 medium_username: # your Medium username
 quora_username: # your Quora username
 
 contact_note: >
-  You can reach me on firstname.lastname@kuleuven.be
+  You can reach me on sieben.bocklandt@kuleuven.be
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
